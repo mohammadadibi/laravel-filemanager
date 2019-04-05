@@ -1,8 +1,30 @@
 {
     "name": "mohammadadibi/laravel-filemanager",
     "description": "A package for managing files in laravel",
-    "author":"mohammadadibi1365@gmail.com",
-    "type": "laravel package",
+    "authors": [
+        {
+            "name": "mohammadadibi",
+            "email": "mohammadadibi1365@gmail.com"
+        }
+    ],
     "license": "MIT",
-    "require": {}
+    "require": {},
+	"autoload": {
+	    "psr-4": {
+	        "Mohammadadibi\\Filemanager\\": "src/"
+	    },
+	    "files": [
+	        "src/helpers.php"
+	    ]
+	},
+	"extra": {
+	    "laravel": {
+	        "providers": [
+	            "Mohammadadibi\\Filemanager\\ServiceProvider"
+	        ],
+	        "aliases": {
+	            "FileManager":"Mohammadadibi\\Filemanager\\Facade"
+	        }
+	    }
+	}
 }
