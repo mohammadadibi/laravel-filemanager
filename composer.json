@@ -1,0 +1,8 @@
+{
+    "name": "mohammadadibi/laravel-filemanager",
+    "description": "A package for managing files in laravel",
+    "author":"mohammadadibi1365@gmail.com",
+    "type": "laravel package",
+    "license": "MIT",
+    "require": {}
+}
