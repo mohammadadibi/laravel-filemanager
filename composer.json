@@ -20,7 +20,7 @@
 	"extra": {
 	    "laravel": {
 	        "providers": [
-	            "Mohammadadibi\\Filemanager\\ServiceProvider"
+	            "Mohammadadibi\\Filemanager\\FileManagerServiceProvider"
 	        ],
 	        "aliases": {
 	            "FileManager":"Mohammadadibi\\Filemanager\\Facade"
